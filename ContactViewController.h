@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ContactViewController.h
 //  NBCUniversal Service Desk
 //
 //  Created by Jberg on 02/06/2014.
@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ContactViewController : UIViewController
+
+- (IBAction)callPhone:(id)sender;
+- (IBAction)sendEmail:(id)sender;
 
 @end

@@ -14,13 +14,20 @@
 		D1BAD7E9193CDC0100881D50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BAD7E8193CDC0100881D50 /* main.m */; };
 		D1BAD7ED193CDC0100881D50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BAD7EC193CDC0100881D50 /* AppDelegate.m */; };
 		D1BAD7F0193CDC0100881D50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1BAD7EE193CDC0100881D50 /* Main.storyboard */; };
-		D1BAD7F3193CDC0100881D50 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BAD7F2193CDC0100881D50 /* ViewController.m */; };
 		D1BAD7F5193CDC0100881D50 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1BAD7F4193CDC0100881D50 /* Images.xcassets */; };
 		D1BAD7FC193CDC0100881D50 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1BAD7FB193CDC0100881D50 /* XCTest.framework */; };
 		D1BAD7FD193CDC0100881D50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1BAD7DC193CDC0100881D50 /* Foundation.framework */; };
 		D1BAD7FE193CDC0100881D50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1BAD7E0193CDC0100881D50 /* UIKit.framework */; };
 		D1BAD806193CDC0200881D50 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1BAD804193CDC0200881D50 /* InfoPlist.strings */; };
 		D1BAD808193CDC0200881D50 /* NBCUniversal_Service_DeskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BAD807193CDC0200881D50 /* NBCUniversal_Service_DeskTests.m */; };
+		D1BAD812193CE1A100881D50 /* nbcutech.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BAD811193CE1A100881D50 /* nbcutech.png */; };
+		D1BAD814193CE98D00881D50 /* NBC_Universal.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BAD813193CE98D00881D50 /* NBC_Universal.png */; };
+		D1BAD81E193CF48C00881D50 /* about-32.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BAD81D193CF48C00881D50 /* about-32.png */; };
+		D1BAD820193CF4DA00881D50 /* download-32.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BAD81F193CF4DA00881D50 /* download-32.png */; };
+		D1BAD822193CF53800881D50 /* phone-32.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BAD821193CF53800881D50 /* phone-32.png */; };
+		D1BAD826193D023500881D50 /* email-25.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BAD825193D023500881D50 /* email-25.png */; };
+		D1BAD828193D02AB00881D50 /* phone-25.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BAD827193D02AB00881D50 /* phone-25.png */; };
+		D1BAD82B193D043900881D50 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BAD82A193D043800881D50 /* ContactViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +52,21 @@
 		D1BAD7EB193CDC0100881D50 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D1BAD7EC193CDC0100881D50 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D1BAD7EF193CDC0100881D50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D1BAD7F1193CDC0100881D50 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D1BAD7F2193CDC0100881D50 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D1BAD7F4193CDC0100881D50 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D1BAD7FA193CDC0100881D50 /* NBCUniversal Service DeskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NBCUniversal Service DeskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1BAD7FB193CDC0100881D50 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D1BAD803193CDC0100881D50 /* NBCUniversal Service DeskTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NBCUniversal Service DeskTests-Info.plist"; sourceTree = "<group>"; };
 		D1BAD805193CDC0200881D50 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D1BAD807193CDC0200881D50 /* NBCUniversal_Service_DeskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBCUniversal_Service_DeskTests.m; sourceTree = "<group>"; };
+		D1BAD811193CE1A100881D50 /* nbcutech.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nbcutech.png; sourceTree = "<group>"; };
+		D1BAD813193CE98D00881D50 /* NBC_Universal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NBC_Universal.png; sourceTree = "<group>"; };
+		D1BAD81D193CF48C00881D50 /* about-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "about-32.png"; sourceTree = "<group>"; };
+		D1BAD81F193CF4DA00881D50 /* download-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "download-32.png"; sourceTree = "<group>"; };
+		D1BAD821193CF53800881D50 /* phone-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone-32.png"; sourceTree = "<group>"; };
+		D1BAD825193D023500881D50 /* email-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "email-25.png"; sourceTree = "<group>"; };
+		D1BAD827193D02AB00881D50 /* phone-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone-25.png"; sourceTree = "<group>"; };
+		D1BAD829193D043800881D50 /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactViewController.h; path = ../ContactViewController.h; sourceTree = "<group>"; };
+		D1BAD82A193D043800881D50 /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContactViewController.m; path = ../ContactViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +126,11 @@
 		D1BAD7E2193CDC0100881D50 /* NBCUniversal Service Desk */ = {
 			isa = PBXGroup;
 			children = (
+				D1BAD829193D043800881D50 /* ContactViewController.h */,
+				D1BAD82A193D043800881D50 /* ContactViewController.m */,
 				D1BAD7EB193CDC0100881D50 /* AppDelegate.h */,
 				D1BAD7EC193CDC0100881D50 /* AppDelegate.m */,
 				D1BAD7EE193CDC0100881D50 /* Main.storyboard */,
-				D1BAD7F1193CDC0100881D50 /* ViewController.h */,
-				D1BAD7F2193CDC0100881D50 /* ViewController.m */,
 				D1BAD7F4193CDC0100881D50 /* Images.xcassets */,
 				D1BAD7E3193CDC0100881D50 /* Supporting Files */,
 			);
@@ -126,6 +140,13 @@
 		D1BAD7E3193CDC0100881D50 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D1BAD827193D02AB00881D50 /* phone-25.png */,
+				D1BAD825193D023500881D50 /* email-25.png */,
+				D1BAD821193CF53800881D50 /* phone-32.png */,
+				D1BAD81F193CF4DA00881D50 /* download-32.png */,
+				D1BAD81D193CF48C00881D50 /* about-32.png */,
+				D1BAD813193CE98D00881D50 /* NBC_Universal.png */,
+				D1BAD811193CE1A100881D50 /* nbcutech.png */,
 				D1BAD7E4193CDC0100881D50 /* NBCUniversal Service Desk-Info.plist */,
 				D1BAD7E5193CDC0100881D50 /* InfoPlist.strings */,
 				D1BAD7E8193CDC0100881D50 /* main.m */,
@@ -228,9 +249,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1BAD81E193CF48C00881D50 /* about-32.png in Resources */,
+				D1BAD814193CE98D00881D50 /* NBC_Universal.png in Resources */,
+				D1BAD826193D023500881D50 /* email-25.png in Resources */,
 				D1BAD7F5193CDC0100881D50 /* Images.xcassets in Resources */,
+				D1BAD822193CF53800881D50 /* phone-32.png in Resources */,
 				D1BAD7E7193CDC0100881D50 /* InfoPlist.strings in Resources */,
+				D1BAD820193CF4DA00881D50 /* download-32.png in Resources */,
+				D1BAD828193D02AB00881D50 /* phone-25.png in Resources */,
 				D1BAD7F0193CDC0100881D50 /* Main.storyboard in Resources */,
+				D1BAD812193CE1A100881D50 /* nbcutech.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,8 +277,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1BAD7F3193CDC0100881D50 /* ViewController.m in Sources */,
 				D1BAD7ED193CDC0100881D50 /* AppDelegate.m in Sources */,
+				D1BAD82B193D043900881D50 /* ContactViewController.m in Sources */,
 				D1BAD7E9193CDC0100881D50 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
