@@ -13,7 +13,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NBC_Universal.png" id="yDe-0K-SNV">
-                                <rect key="frame" x="5" y="49" width="310" height="47"/>
+                                <rect key="frame" x="16" y="40" width="288" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Service Desk" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0rF-9J-FpZ">
@@ -238,7 +238,7 @@ We provide technology support to NBCUniversal International and other associated
         </scene>
     </scenes>
     <resources>
-        <image name="NBC_Universal.png" width="310" height="47"/>
+        <image name="NBC_Universal.png" width="1000" height="129"/>
         <image name="about-32.png" width="32" height="32"/>
         <image name="appstore-button.png" width="640" height="184"/>
         <image name="download-32.png" width="32" height="32"/>

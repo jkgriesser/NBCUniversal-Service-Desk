@@ -16,6 +16,7 @@
 		D18BB8471944AC5300A29E11 /* jive-mobile.png in Resources */ = {isa = PBXBuildFile; fileRef = D18BB8421944AC5300A29E11 /* jive-mobile.png */; };
 		D18BB8481944AC5300A29E11 /* rsa-securid.png in Resources */ = {isa = PBXBuildFile; fileRef = D18BB8431944AC5300A29E11 /* rsa-securid.png */; };
 		D18BB84A1944B0FD00A29E11 /* appstore-button.png in Resources */ = {isa = PBXBuildFile; fileRef = D18BB8491944B0FD00A29E11 /* appstore-button.png */; };
+		D18BB84C1944D91C00A29E11 /* NBC_Universal.png in Resources */ = {isa = PBXBuildFile; fileRef = D18BB84B1944D91C00A29E11 /* NBC_Universal.png */; };
 		D1BAD7DD193CDC0100881D50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1BAD7DC193CDC0100881D50 /* Foundation.framework */; };
 		D1BAD7DF193CDC0100881D50 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1BAD7DE193CDC0100881D50 /* CoreGraphics.framework */; };
 		D1BAD7E1193CDC0100881D50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1BAD7E0193CDC0100881D50 /* UIKit.framework */; };
@@ -30,7 +31,6 @@
 		D1BAD806193CDC0200881D50 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1BAD804193CDC0200881D50 /* InfoPlist.strings */; };
 		D1BAD808193CDC0200881D50 /* NBCUniversal_Service_DeskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BAD807193CDC0200881D50 /* NBCUniversal_Service_DeskTests.m */; };
 		D1BAD812193CE1A100881D50 /* nbcutech.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BAD811193CE1A100881D50 /* nbcutech.png */; };
-		D1BAD814193CE98D00881D50 /* NBC_Universal.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BAD813193CE98D00881D50 /* NBC_Universal.png */; };
 		D1BAD81E193CF48C00881D50 /* about-32.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BAD81D193CF48C00881D50 /* about-32.png */; };
 		D1BAD820193CF4DA00881D50 /* download-32.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BAD81F193CF4DA00881D50 /* download-32.png */; };
 		D1BAD822193CF53800881D50 /* phone-32.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BAD821193CF53800881D50 /* phone-32.png */; };
@@ -62,6 +62,7 @@
 		D18BB8421944AC5300A29E11 /* jive-mobile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jive-mobile.png"; sourceTree = "<group>"; };
 		D18BB8431944AC5300A29E11 /* rsa-securid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rsa-securid.png"; sourceTree = "<group>"; };
 		D18BB8491944B0FD00A29E11 /* appstore-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appstore-button.png"; sourceTree = "<group>"; };
+		D18BB84B1944D91C00A29E11 /* NBC_Universal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NBC_Universal.png; sourceTree = "<group>"; };
 		D1BAD7D9193CDC0100881D50 /* NBCUniversal Service Desk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NBCUniversal Service Desk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1BAD7DC193CDC0100881D50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D1BAD7DE193CDC0100881D50 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -80,7 +81,6 @@
 		D1BAD805193CDC0200881D50 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D1BAD807193CDC0200881D50 /* NBCUniversal_Service_DeskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBCUniversal_Service_DeskTests.m; sourceTree = "<group>"; };
 		D1BAD811193CE1A100881D50 /* nbcutech.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nbcutech.png; sourceTree = "<group>"; };
-		D1BAD813193CE98D00881D50 /* NBC_Universal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NBC_Universal.png; sourceTree = "<group>"; };
 		D1BAD81D193CF48C00881D50 /* about-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "about-32.png"; sourceTree = "<group>"; };
 		D1BAD81F193CF4DA00881D50 /* download-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "download-32.png"; sourceTree = "<group>"; };
 		D1BAD821193CF53800881D50 /* phone-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone-32.png"; sourceTree = "<group>"; };
@@ -167,6 +167,7 @@
 		D1BAD7E3193CDC0100881D50 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D18BB84B1944D91C00A29E11 /* NBC_Universal.png */,
 				D18BB8491944B0FD00A29E11 /* appstore-button.png */,
 				D18BB83F1944AC5300A29E11 /* cisco-anyconnect.png */,
 				D18BB8401944AC5300A29E11 /* concur-travel.png */,
@@ -178,7 +179,6 @@
 				D1BAD821193CF53800881D50 /* phone-32.png */,
 				D1BAD81F193CF4DA00881D50 /* download-32.png */,
 				D1BAD81D193CF48C00881D50 /* about-32.png */,
-				D1BAD813193CE98D00881D50 /* NBC_Universal.png */,
 				D1BAD811193CE1A100881D50 /* nbcutech.png */,
 				D1BAD7E4193CDC0100881D50 /* NBCUniversal Service Desk-Info.plist */,
 				D1BAD7E5193CDC0100881D50 /* InfoPlist.strings */,
@@ -283,9 +283,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D18BB8441944AC5300A29E11 /* cisco-anyconnect.png in Resources */,
+				D18BB84C1944D91C00A29E11 /* NBC_Universal.png in Resources */,
 				D1BAD81E193CF48C00881D50 /* about-32.png in Resources */,
 				D18BB8481944AC5300A29E11 /* rsa-securid.png in Resources */,
-				D1BAD814193CE98D00881D50 /* NBC_Universal.png in Resources */,
 				D1BAD826193D023500881D50 /* email-25.png in Resources */,
 				D1BAD7F5193CDC0100881D50 /* Images.xcassets in Resources */,
 				D18BB8451944AC5300A29E11 /* concur-travel.png in Resources */,
