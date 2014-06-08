@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D18BB83819448BEF00A29E11 /* AppTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D18BB83719448BEF00A29E11 /* AppTableViewController.m */; };
+		D18BB83B19448C2600A29E11 /* AppTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D18BB83A19448C2600A29E11 /* AppTableViewCell.m */; };
+		D18BB83E19448ED200A29E11 /* AppDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D18BB83D19448ED200A29E11 /* AppDetailViewController.m */; };
+		D18BB8441944AC5300A29E11 /* cisco-anyconnect.png in Resources */ = {isa = PBXBuildFile; fileRef = D18BB83F1944AC5300A29E11 /* cisco-anyconnect.png */; };
+		D18BB8451944AC5300A29E11 /* concur-travel.png in Resources */ = {isa = PBXBuildFile; fileRef = D18BB8401944AC5300A29E11 /* concur-travel.png */; };
+		D18BB8461944AC5300A29E11 /* dropbox.png in Resources */ = {isa = PBXBuildFile; fileRef = D18BB8411944AC5300A29E11 /* dropbox.png */; };
+		D18BB8471944AC5300A29E11 /* jive-mobile.png in Resources */ = {isa = PBXBuildFile; fileRef = D18BB8421944AC5300A29E11 /* jive-mobile.png */; };
+		D18BB8481944AC5300A29E11 /* rsa-securid.png in Resources */ = {isa = PBXBuildFile; fileRef = D18BB8431944AC5300A29E11 /* rsa-securid.png */; };
+		D18BB84A1944B0FD00A29E11 /* appstore-button.png in Resources */ = {isa = PBXBuildFile; fileRef = D18BB8491944B0FD00A29E11 /* appstore-button.png */; };
 		D1BAD7DD193CDC0100881D50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1BAD7DC193CDC0100881D50 /* Foundation.framework */; };
 		D1BAD7DF193CDC0100881D50 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1BAD7DE193CDC0100881D50 /* CoreGraphics.framework */; };
 		D1BAD7E1193CDC0100881D50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1BAD7E0193CDC0100881D50 /* UIKit.framework */; };
@@ -41,6 +50,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D18BB83619448BEF00A29E11 /* AppTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppTableViewController.h; sourceTree = "<group>"; };
+		D18BB83719448BEF00A29E11 /* AppTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppTableViewController.m; sourceTree = "<group>"; };
+		D18BB83919448C2600A29E11 /* AppTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppTableViewCell.h; sourceTree = "<group>"; };
+		D18BB83A19448C2600A29E11 /* AppTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppTableViewCell.m; sourceTree = "<group>"; };
+		D18BB83C19448ED200A29E11 /* AppDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDetailViewController.h; sourceTree = "<group>"; };
+		D18BB83D19448ED200A29E11 /* AppDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDetailViewController.m; sourceTree = "<group>"; };
+		D18BB83F1944AC5300A29E11 /* cisco-anyconnect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cisco-anyconnect.png"; sourceTree = "<group>"; };
+		D18BB8401944AC5300A29E11 /* concur-travel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "concur-travel.png"; sourceTree = "<group>"; };
+		D18BB8411944AC5300A29E11 /* dropbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dropbox.png; sourceTree = "<group>"; };
+		D18BB8421944AC5300A29E11 /* jive-mobile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jive-mobile.png"; sourceTree = "<group>"; };
+		D18BB8431944AC5300A29E11 /* rsa-securid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rsa-securid.png"; sourceTree = "<group>"; };
+		D18BB8491944B0FD00A29E11 /* appstore-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appstore-button.png"; sourceTree = "<group>"; };
 		D1BAD7D9193CDC0100881D50 /* NBCUniversal Service Desk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NBCUniversal Service Desk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1BAD7DC193CDC0100881D50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D1BAD7DE193CDC0100881D50 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,8 +86,8 @@
 		D1BAD821193CF53800881D50 /* phone-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone-32.png"; sourceTree = "<group>"; };
 		D1BAD825193D023500881D50 /* email-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "email-25.png"; sourceTree = "<group>"; };
 		D1BAD827193D02AB00881D50 /* phone-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone-25.png"; sourceTree = "<group>"; };
-		D1BAD829193D043800881D50 /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactViewController.h; path = ../ContactViewController.h; sourceTree = "<group>"; };
-		D1BAD82A193D043800881D50 /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContactViewController.m; path = ../ContactViewController.m; sourceTree = "<group>"; };
+		D1BAD829193D043800881D50 /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
+		D1BAD82A193D043800881D50 /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,8 +151,14 @@
 				D1BAD82A193D043800881D50 /* ContactViewController.m */,
 				D1BAD7EB193CDC0100881D50 /* AppDelegate.h */,
 				D1BAD7EC193CDC0100881D50 /* AppDelegate.m */,
-				D1BAD7EE193CDC0100881D50 /* Main.storyboard */,
+				D18BB83C19448ED200A29E11 /* AppDetailViewController.h */,
+				D18BB83D19448ED200A29E11 /* AppDetailViewController.m */,
+				D18BB83919448C2600A29E11 /* AppTableViewCell.h */,
+				D18BB83A19448C2600A29E11 /* AppTableViewCell.m */,
+				D18BB83619448BEF00A29E11 /* AppTableViewController.h */,
+				D18BB83719448BEF00A29E11 /* AppTableViewController.m */,
 				D1BAD7F4193CDC0100881D50 /* Images.xcassets */,
+				D1BAD7EE193CDC0100881D50 /* Main.storyboard */,
 				D1BAD7E3193CDC0100881D50 /* Supporting Files */,
 			);
 			path = "NBCUniversal Service Desk";
@@ -140,6 +167,12 @@
 		D1BAD7E3193CDC0100881D50 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D18BB8491944B0FD00A29E11 /* appstore-button.png */,
+				D18BB83F1944AC5300A29E11 /* cisco-anyconnect.png */,
+				D18BB8401944AC5300A29E11 /* concur-travel.png */,
+				D18BB8411944AC5300A29E11 /* dropbox.png */,
+				D18BB8421944AC5300A29E11 /* jive-mobile.png */,
+				D18BB8431944AC5300A29E11 /* rsa-securid.png */,
 				D1BAD827193D02AB00881D50 /* phone-25.png */,
 				D1BAD825193D023500881D50 /* email-25.png */,
 				D1BAD821193CF53800881D50 /* phone-32.png */,
@@ -249,14 +282,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D18BB8441944AC5300A29E11 /* cisco-anyconnect.png in Resources */,
 				D1BAD81E193CF48C00881D50 /* about-32.png in Resources */,
+				D18BB8481944AC5300A29E11 /* rsa-securid.png in Resources */,
 				D1BAD814193CE98D00881D50 /* NBC_Universal.png in Resources */,
 				D1BAD826193D023500881D50 /* email-25.png in Resources */,
 				D1BAD7F5193CDC0100881D50 /* Images.xcassets in Resources */,
+				D18BB8451944AC5300A29E11 /* concur-travel.png in Resources */,
 				D1BAD822193CF53800881D50 /* phone-32.png in Resources */,
 				D1BAD7E7193CDC0100881D50 /* InfoPlist.strings in Resources */,
 				D1BAD820193CF4DA00881D50 /* download-32.png in Resources */,
+				D18BB8461944AC5300A29E11 /* dropbox.png in Resources */,
 				D1BAD828193D02AB00881D50 /* phone-25.png in Resources */,
+				D18BB8471944AC5300A29E11 /* jive-mobile.png in Resources */,
+				D18BB84A1944B0FD00A29E11 /* appstore-button.png in Resources */,
 				D1BAD7F0193CDC0100881D50 /* Main.storyboard in Resources */,
 				D1BAD812193CE1A100881D50 /* nbcutech.png in Resources */,
 			);
@@ -277,9 +316,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D18BB83819448BEF00A29E11 /* AppTableViewController.m in Sources */,
 				D1BAD7ED193CDC0100881D50 /* AppDelegate.m in Sources */,
 				D1BAD82B193D043900881D50 /* ContactViewController.m in Sources */,
+				D18BB83E19448ED200A29E11 /* AppDetailViewController.m in Sources */,
 				D1BAD7E9193CDC0100881D50 /* main.m in Sources */,
+				D18BB83B19448C2600A29E11 /* AppTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +526,7 @@
 				D1BAD80D193CDC0200881D50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D1BAD80E193CDC0200881D50 /* Build configuration list for PBXNativeTarget "NBCUniversal Service DeskTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +535,7 @@
 				D1BAD810193CDC0200881D50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

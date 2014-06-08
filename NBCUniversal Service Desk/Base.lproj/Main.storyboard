@@ -63,7 +63,7 @@
         <scene sceneID="DOP-Zj-nBN">
             <objects>
                 <tabBarController definesPresentationContext="YES" id="LHO-uQ-jSm" sceneMemberID="viewController">
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="9v2-g9-GPz">
                         <rect key="frame" x="129" y="330" width="163" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
@@ -105,7 +105,7 @@ We provide technology support to NBCUniversal International and other associated
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nbcutech.png" id="cc9-9M-GN8">
-                                <rect key="frame" x="19" y="310" width="283" height="185"/>
+                                <rect key="frame" x="81" y="398" width="159" height="104"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                             </imageView>
                         </subviews>
@@ -117,22 +117,48 @@ We provide technology support to NBCUniversal International and other associated
             </objects>
             <point key="canvasLocation" x="16" y="184"/>
         </scene>
-        <!--Table View Controller - Recommended Apps-->
+        <!--App Table View Controller - Recommended Apps-->
         <scene sceneID="4fo-bD-Atp">
             <objects>
-                <tableViewController id="f6M-OW-e4Y" sceneMemberID="viewController">
+                <tableViewController id="f6M-OW-e4Y" customClass="AppTableViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="vHl-dH-hgC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="N8c-zA-dfV">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="appTableCell" id="N8c-zA-dfV" customClass="AppTableViewCell">
                                 <rect key="frame" x="0.0" y="86" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="N8c-zA-dfV" id="gYj-AB-ca3">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="vK9-od-keE">
+                                            <rect key="frame" x="8" y="2" width="40" height="40"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mpH-Gq-BSU">
+                                            <rect key="frame" x="67" y="2" width="220" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Q2f-dU-rWC">
+                                            <rect key="frame" x="67" y="20" width="220" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="appDescriptionShort" destination="Q2f-dU-rWC" id="7fv-ee-Cx8"/>
+                                    <outlet property="appIcon" destination="vK9-od-keE" id="uol-2S-dQe"/>
+                                    <outlet property="appName" destination="mpH-Gq-BSU" id="JG2-mq-Tnx"/>
+                                    <segue destination="xib-x4-xm1" kind="push" identifier="ShowAppDetails" id="iXy-Id-xE2"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -145,6 +171,54 @@ We provide technology support to NBCUniversal International and other associated
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CVv-Tr-l1T" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="550" y="862"/>
+        </scene>
+        <!--App Detail View Controller - App Details-->
+        <scene sceneID="Wab-RA-ORG">
+            <objects>
+                <viewController id="xib-x4-xm1" customClass="AppDetailViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7ja-60-s8E">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="FV2-IT-YuH">
+                                <rect key="frame" x="20" y="83" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="S4o-KQ-vda">
+                                <rect key="frame" x="139" y="122" width="161" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Nzf-Io-f7q">
+                                <rect key="frame" x="20" y="204" width="280" height="222"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="yzh-mB-BB4">
+                                <rect key="frame" x="84" y="462" width="153" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <state key="normal" title="Button" image="appstore-button.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="viewAppOnAppStore:" destination="xib-x4-xm1" eventType="touchUpInside" id="988-86-dsG"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="App Details" id="GCf-7h-fVj"/>
+                    <connections>
+                        <outlet property="appDescriptionFull" destination="Nzf-Io-f7q" id="84z-Ce-edK"/>
+                        <outlet property="appIcon" destination="FV2-IT-YuH" id="8Gl-4N-4EM"/>
+                        <outlet property="appName" destination="S4o-KQ-vda" id="tqT-yW-MPq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6QC-e9-JtG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1088" y="862"/>
         </scene>
         <!--Navigation Controller - Apps-->
         <scene sceneID="lrV-5v-lwZ">
@@ -166,6 +240,7 @@ We provide technology support to NBCUniversal International and other associated
     <resources>
         <image name="NBC_Universal.png" width="310" height="47"/>
         <image name="about-32.png" width="32" height="32"/>
+        <image name="appstore-button.png" width="640" height="184"/>
         <image name="download-32.png" width="32" height="32"/>
         <image name="email-25.png" width="25" height="25"/>
         <image name="nbcutech.png" width="283" height="185"/>
