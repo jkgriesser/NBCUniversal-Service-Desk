@@ -29,7 +29,10 @@
     
     _appIcon.image = [UIImage imageNamed:_appDetailModel[0]];
     _appName.text = _appDetailModel[1];
+    
     _appDescriptionFull.text = _appDetailModel[2];
+    [_appDescriptionFull setNumberOfLines:0];
+    [_appDescriptionFull sizeToFit];
 }
 
 - (void)didReceiveMemoryWarning
@@ -50,6 +53,7 @@
 */
 
 - (IBAction)viewAppOnAppStore:(id)sender {
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:_appDetailModel[3]]];
+    NSString *iTunesLink = _appDetailModel[3];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:iTunesLink]];
 }
 @end
